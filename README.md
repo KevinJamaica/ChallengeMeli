@@ -9,7 +9,7 @@ Este proyecto contiene la capa de servicios de la prueba técnica correspondient
 Este proyecto fue creado con las siguientes herramientas sobre Windows 11:
 - Java 11
 - Springboot 2.7.0
-- Herramienta cliente para la prueba de los servicios REST. Para este proyecto se usó Postman (Se encuentra un script de referencia en la carpeta postman/PruebaTecnica.postman_collection.json lista para ser importada en su espacio de trabajo en postman)
+- Herramienta cliente para la prueba de los servicios REST. Para este proyecto se usó Postman (Se encuentran los scripts de referencia en la carpeta postman, listas para ser importada en su espacio de trabajo en postman)
 - Se hosteó el API en una instancia de EC2 en AWS, con los siguientes endpoints:
 	- GET 54.237.160.237:8080/quasar-fire-1.0.0/topsecret/example-bodyin
 	- POST 54.237.160.237:8080/quasar-fire-1.0.0/topsecret/
@@ -23,6 +23,7 @@ Este proyecto fue creado con las siguientes herramientas sobre Windows 11:
 Para ejecutar el proyecto, se facilita el siguiente botón para instalar el ambiente del cliente con algunos ejemplos aplicados:
 
 Level 2:
+
 <div class="postman-run-button"
 data-postman-action="collection/import"
 data-postman-var-1="67edf6768c2746258929"
@@ -37,7 +38,9 @@ data-postman-param="env%5BAWS%5D=W3sia2V5IjoiaG9zdCIsInZhbHVlIjoiNTQuMjM3LjE2MC4
   }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
 </script>
 
+
 Level 3:
+
 <div class="postman-run-button"
 data-postman-action="collection/import"
 data-postman-var-1="799e811f08876dfa9eef"
