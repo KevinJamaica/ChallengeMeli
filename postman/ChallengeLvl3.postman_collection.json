@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "9498f226-fc1e-49cb-a52d-0d85704c32fe",
+		"name": "ChallengeLvl3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "745602"
+	},
+	"item": [
+		{
+			"name": "TopSecretSplit",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"//pm.variables.set(\"satelite_name\", \"kenobi\");\r",
+							"//pm.variables.set(\"satelite_name\", \"skywalker\");\r",
+							"pm.variables.set(\"satelite_name\", \"sato\");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"distance\": 600.5,\r\n    \"message\": [\"este\", \"\", \"un\", \"\", \"\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}:{{port}}{{contextroot}}topsecret_split/{{satelite_name}}",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}{{contextroot}}topsecret_split",
+					"path": [
+						"{{satelite_name}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TopSecretSplit",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}:{{port}}{{contextroot}}topsecret_split/",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}{{contextroot}}topsecret_split",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TopSecretSplitReset",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}:{{port}}{{contextroot}}topsecret_split/reset",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}{{contextroot}}topsecret_split",
+					"path": [
+						"reset"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

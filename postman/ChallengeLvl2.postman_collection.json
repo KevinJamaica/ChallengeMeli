@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "08cbc74c-c70a-4549-90cb-84cd385b56ee",
+		"name": "ChallengeLvl2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "745602"
+	},
+	"item": [
+		{
+			"name": "TopSecret",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"kenobi\",\r\n        \"distance\": 485.695,\r\n        \"message\": [\"este\", \"\", \"\", \"mensaje\", \"\"]\r\n    },\r\n    {\r\n        \"name\": \"skywalker\",\r\n        \"distance\": 266.083,\r\n        \"message\": [\"\", \"es\", \"\", \"\", \"secreto\"]\r\n    },\r\n    {\r\n        \"name\": \"sato\",\r\n        \"distance\": 600.5,\r\n        \"message\": [\"este\", \"\", \"un\", \"\", \"\"]\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}:{{port}}{{contextroot}}topsecret/",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}{{contextroot}}topsecret",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ExampleBodyIn",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}:{{port}}{{contextroot}}topsecret/example-bodyin",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}{{contextroot}}topsecret",
+					"path": [
+						"example-bodyin"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
