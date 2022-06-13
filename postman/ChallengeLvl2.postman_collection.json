@@ -21,11 +21,10 @@
 					}
 				},
 				"url": {
-					"raw": "{{host}}:{{port}}{{contextroot}}topsecret/",
+					"raw": "{{host}}topsecret/",
 					"host": [
-						"{{host}}"
+						"{{host}}topsecret"
 					],
-					"port": "{{port}}{{contextroot}}topsecret",
 					"path": [
 						""
 					]
@@ -39,11 +38,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{host}}:{{port}}{{contextroot}}topsecret/example-bodyin",
+					"raw": "{{host}}topsecret/example-bodyin",
 					"host": [
-						"{{host}}"
+						"{{host}}topsecret"
 					],
-					"port": "{{port}}{{contextroot}}topsecret",
 					"path": [
 						"example-bodyin"
 					]

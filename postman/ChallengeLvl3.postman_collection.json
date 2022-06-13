@@ -34,11 +34,10 @@
 					}
 				},
 				"url": {
-					"raw": "{{host}}:{{port}}{{contextroot}}topsecret_split/{{satelite_name}}",
+					"raw": "{{host}}topsecret_split/{{satelite_name}}",
 					"host": [
-						"{{host}}"
+						"{{host}}topsecret_split"
 					],
-					"port": "{{port}}{{contextroot}}topsecret_split",
 					"path": [
 						"{{satelite_name}}"
 					]
@@ -64,11 +63,10 @@
 					}
 				},
 				"url": {
-					"raw": "{{host}}:{{port}}{{contextroot}}topsecret_split/",
+					"raw": "{{host}}topsecret_split/",
 					"host": [
-						"{{host}}"
+						"{{host}}topsecret_split"
 					],
-					"port": "{{port}}{{contextroot}}topsecret_split",
 					"path": [
 						""
 					]
@@ -94,11 +92,10 @@
 					}
 				},
 				"url": {
-					"raw": "{{host}}:{{port}}{{contextroot}}topsecret_split/reset",
+					"raw": "{{host}}topsecret_split/reset",
 					"host": [
-						"{{host}}"
+						"{{host}}topsecret_split"
 					],
-					"port": "{{port}}{{contextroot}}topsecret_split",
 					"path": [
 						"reset"
 					]
